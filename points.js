@@ -9,3 +9,6 @@ function savePaper() {
     points += 5;
     console.log('+5 points for saving paper! Total: ' + points);
 }
+function getPoints() {
+    return points;
+}
